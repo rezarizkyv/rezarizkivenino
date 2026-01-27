@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+  .container {
+    /* background-image: url('/img/wlcomehero/banner.jpg'); */
+    background-size: cover;
+    background-position: center;
+    color:black;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .container h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+    float: left;
+  }
+  
+  .container p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+  }
+  .container a {
+    justify-content: space-between;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #e84118;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .category {
+    text-align: center;
+  }
+  
+  .category h3 {
+    margin: 0 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .category p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .explore {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .explore h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .explore p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color: #777;
+  }
+  
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+  
+  .card-content .details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .card-content p {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .status.open {
+    color: #28a745;
+    background: #d4edda;
+  }
+  
+  .status.closed {
+    color: #dc3545;
+    background: #f8d7da;
+  }
+  
+  .clients-reviews {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .clients-reviews h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .clients-reviews p {
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .review-card {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-card h4 {
+    margin: 0.5rem 0;
+  }
+  
+  .review-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .highlighted {
+    background: #fff;
+    border: 2px solid #007bff;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: #f0f0f0;
+    padding: 2rem 0;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h3 {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .stat p {
+    margin-top: 0.5rem;
+    color: #666;
+  }
+  
+  .news-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .news-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .news-section p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .news-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .news-card h3 {
+    font-size: 18px;
+    margin: 15px;
+  }
+  
+  .news-card p {
+    font-size: 14px;
+    color: #333;
+    margin: 0 15px 15px;
+  }
+  
+  .cta-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .cta-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .cta-section p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .cta-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .cta-input input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cta-input button {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+  }

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-top: 3rem;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    padding: 25px 1px 25px;
+}
+.navbar a {
+    float: right;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+.navbar .smk {
+    float: left;
+    color:#000;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 50px;
+}
+.navbar a:hover {
+    color: red;
+}
+
+.homepage {
+    text-align: center;
+    overflow: hidden;
+    background-image: url(/img/wlcomehero/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1800px;
+    
+  }
+  
+  .text {
+    padding: 150px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 35px;
+  }
+  .text p {
+    padding: 50px;
+  }
+  .cari-box {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 0.5px;
+  }
+  
+  .cari-box input {
+    padding: 25px;
+    width: 999px;
+    border: none;
+  }
+  
+  
+  .cari-box button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cari-box button:hover {
+    background-color: #fff;
+    color: red;
+  }
