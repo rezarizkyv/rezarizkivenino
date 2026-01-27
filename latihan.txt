@@ -1,1 +1,2 @@
 ini baris pertama pada file
+ini baris ke 2
